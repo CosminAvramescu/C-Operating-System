@@ -1,7 +1,6 @@
-324CC_Avramescu_Cosmin
 
 
-	main:
+		main:
 	Initial, aloc memorie si initializez directorul "home". Pentru a citi fiecare comanda
 prin redirectare ma folosesc de fgets care ia informatia de la stdin si o copiaza in sirul s.
 words este sirul meu in care retin pe rand fiecare token pe care il extrag din s cu strtok.
@@ -14,7 +13,7 @@ default in care eliberez memoria pentru comenzi introduse gresit de la prima lit
 "youch" in loc de "touch". La comanda stop merg inapoi pe parent pana la home pentru a elibera
 memoria. 
 
-	touch:
+		touch:
 	Daca directorul in care vreau sa creez fisierul are si alte fisiere deja, vreau sa verific
 daca numele noului fisier coincide cu cele deja existente. Altfel, pur si simplu pointerul se duce 
 pana la finalul listei de fisiere pentru a face introducerea. Aloc memorie si initializez fisierul,
