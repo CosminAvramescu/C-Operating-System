@@ -1,8 +1,7 @@
 # C-Operating-System
 
-	Sistem de operare minimal.
 
-		main:
+		main
 	Initial, aloc memorie si initializez directorul "home". Pentru a citi fiecare comanda
 prin redirectare ma folosesc de fgets care ia informatia de la stdin si o copiaza in sirul s.
 words este sirul meu in care retin pe rand fiecare token pe care il extrag din s cu strtok.
