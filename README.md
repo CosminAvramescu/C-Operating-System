@@ -1,6 +1,6 @@
 
 
-		main:
+	1. main
 	Initial, aloc memorie si initializez directorul "home". Pentru a citi fiecare comanda
 prin redirectare ma folosesc de fgets care ia informatia de la stdin si o copiaza in sirul s.
 words este sirul meu in care retin pe rand fiecare token pe care il extrag din s cu strtok.
@@ -11,7 +11,7 @@ cu strcmp. Daca se introduce o comanda precum "stod", nu se va intra pe comparat
 se va elibera memoria prin free(cuv) si se va trece mai departe. In plus, am pus si cazul de 
 default in care eliberez memoria pentru comenzi introduse gresit de la prima litera, cum ar fi
 "youch" in loc de "touch". La comanda stop merg inapoi pe parent pana la home pentru a elibera
-memoria. 
+memoria.
 
 		touch:
 	Daca directorul in care vreau sa creez fisierul are si alte fisiere deja, vreau sa verific
